@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+class Image extends React.Component {
+  render()
+  {
+    return(
+<div class="image" >
+</div>
+    );
+  }
+}
+ReactDOM.render(<Image />, document.getElementById('body'));

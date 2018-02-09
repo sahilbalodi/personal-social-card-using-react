@@ -3,3 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.image {
+  background: url("one.png");
+  height: 844px;
+width: 1170px;
+  background-color: powderblue;
+}
