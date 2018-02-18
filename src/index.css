@@ -8,24 +8,48 @@ body {
   height: 844px;
 width: 1170px;
   background-color: powderblue;
+
 }
 .contactme {
   height: 35px;
-width: 300px;
-font-size: 16px;
+width: 225px;
+font-size: 22px;
 position: relative;
    left: 75px;
    top: 50px;
   background-color: lightgrey;
-  border-radius: 12px;
+  border-radius: 16px;
+    letter-spacing: 2px;
 }
-.personalcart {
-  height: 35px;
-width: 300px;
-font-size: 16px;
+.personal {
 position: relative;
-   left: 75px;
-   top: 50px;
-  background-color: lightgrey;
-  border-radius: 12px;
+left: 80px;
+top: 60px;
+font-size: 80px;
+font-weight: 100;
+font-style: 1.6;
+color:#1c0400;
+}
+.social {
+position: relative;
+left: 80px;
+font-size: 80px;
+font-weight: bold;
+font-style: bold;
+}
+.smalltext {
+position: relative;
+left: 80px;
+font-size: 26px;
+line-height: 1.6;
+font-style: italic;
+font-weight: 90;
+}
+.square {
+  position: relative;
+  left: 80px;
+  top: 100px;
+  height: 40px;
+width: 40px;
+margin-left: 70px;
 }
